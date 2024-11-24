@@ -18,7 +18,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Component
 public class JwtAuthenticationHelper {
 	
-	String secretKey = "thisisarandomstringfovjwttoken.....blablabablathisisforsigningthekey";
+	String secretKey = "";
 	private static final long JWT_TOKEN_VALIDITY = 60*60;
 	
 	public String getUserNameFromToken(String token) {
